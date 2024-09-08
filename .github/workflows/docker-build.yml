@@ -8,7 +8,7 @@ env:
     DOCKER_BUILDKIT: 1
     DOCKER_BUILDKIT_INLINE_CACHE: 1
     DOCKER_IMAGE_NAME: ${{ github.repository }}
-    DOCKER_FILE: https://raw.githubusercontent.com/ENTNET/dockerfiles/latest/dockerfile.x11-apps
+    DOCKER_FILE: https://raw.githubusercontent.com/ENTNET/dockerfiles/latest/dockerfile.dev-gui
 
 jobs:
     docker-build:
